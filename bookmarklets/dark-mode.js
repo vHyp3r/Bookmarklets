@@ -1,0 +1,1 @@
+javascript:(()=>{const id="bookmarklet-dark-mode";let style=document.getElementById(id);if(style){style.remove();return}style=document.createElement("style");style.id=id;style.textContent="html,body{background:#111!important;color:#eee!important}img,video{filter:brightness(.85)}a{color:#8cf!important}";document.head.appendChild(style)})();

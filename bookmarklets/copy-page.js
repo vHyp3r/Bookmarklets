@@ -1,0 +1,1 @@
+javascript:(()=>{const text=document.title+" - "+location.href;navigator.clipboard.writeText(text).then(()=>{alert("Copied page title and URL")}).catch(()=>{prompt("Copy this page title and URL:",text)})})();
